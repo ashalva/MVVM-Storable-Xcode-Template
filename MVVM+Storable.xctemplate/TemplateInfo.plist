@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>Description</key>
+	<string>This generates the Viewcontroller, Storable, Store, State, ViewModelling and Viewmodel classes/protocols</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module to create</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>New Module Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewController</string>
+			<key>Description</key>
+			<string>The viewcontroller name</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>ViewController Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewModel</string>
+			<key>Description</key>
+			<string>The name of the file containing the ViewModel and its protocol</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>Name of ViewModel</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___State</string>
+			<key>Description</key>
+			<string>ViewModel State</string>
+			<key>Identifier</key>
+			<string>viewModelState</string>
+			<key>Name</key>
+			<string>ViewModel State</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___ViewModelling</string>
+			<key>Description</key>
+			<string>ViewModel Protocol</string>
+			<key>Identifier</key>
+			<string>viewModelProtocol</string>
+			<key>Name</key>
+			<string>ViewModel Protocol Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Storable</string>
+			<key>Description</key>
+			<string>Store Protocol</string>
+			<key>Identifier</key>
+			<string>storeProtocol</string>
+			<key>Name</key>
+			<string>Store Protocol:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Store</string>
+			<key>Description</key>
+			<string>Store</string>
+			<key>Identifier</key>
+			<string>store</string>
+			<key>Name</key>
+			<string>Store :</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>7</string>
+	<key>Summary</key>
+	<string>This generates MVVM+Storable all necessary classes/protocols.</string>
+</dict>
+</plist>
